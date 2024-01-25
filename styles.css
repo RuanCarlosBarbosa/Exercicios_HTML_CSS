@@ -1,0 +1,63 @@
+*{
+    font-family: Arial;
+    background-color: chocolate;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+.cima-direita {
+    width: 50%;        /* Largura da div */
+    height: 300px;       /* Altura máxima da div */
+    overflow: hidden;    /* Oculta o texto além da altura especificada */
+    white-space: normal; /* Permite a quebra de linha */
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+.cima-esquerda {
+    width: 50%;        /* Largura da div */
+    height: 300px;       /* Altura máxima da div */
+    overflow: hidden;    /* Oculta o texto além da altura especificada */
+    white-space: normal; /* Permite a quebra de linha */
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+/* IMAGENS */
+.container-img {
+    width: 98%;
+    height: 300px;
+    overflow: hidden;
+    white-space: normal;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-1 {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da div */
+}
+
+#img-2 {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da div */
+}
